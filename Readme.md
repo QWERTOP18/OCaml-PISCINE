@@ -11,6 +11,7 @@
 
 see manual https://ocaml.org/p/ocamlformat/0.26.0/doc/manpage_ocamlformat.html
 
-
+- [x] CI
+```act --container-architecture linux/amd64```
 ## ほげ〜
 - [ ] test用にfileを分けてコンパイルしたい
