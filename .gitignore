@@ -1,0 +1,89 @@
+*.pdf
+# OCaml compiled files
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.a
+*.o
+*.so
+*.dylib
+
+# OCaml executables
+a.out
+*.exe
+*.native
+*.byte
+
+# OCaml build directories
+_build/
+.merlin
+*.install
+
+# Dune
+_build
+.dune-project
+.merlin
+*.install
+
+# OPAM
+_opam/
+*.opam
+
+# OCamlfind
+META
+
+# Caml object files
+*.annot
+*.cmt
+*.cmti
+
+# Temporary and backup files
+*~
+*.bak
+*.orig
+*.tmp
+.#*
+#*#
+
+# IDE and editor files
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# OCaml documentation
+*.html
+*.css
+*.js
+doc/
+
+# Logs
+*.log
+
+# Coverage reports
+bisect*.coverage
+_coverage/
+
+# Profiling
+gmon.out
+
+# OCaml toplevel
+#require
+#directory
+
+# Local development
+.env
+.env.local
