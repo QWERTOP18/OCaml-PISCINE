@@ -1,7 +1,9 @@
-let repeat_x n =
+let repeat_x (n : int) =
     if n < 0 then "Error"
     else
-      let rec aux m acc = if m <= 0 then acc else aux (m - 1) (acc ^ "x") in
+      let rec aux (m : int) acc =
+          if m <= 0 then acc else aux (m - 1) (acc ^ "x")
+      in
       aux n ""
 
 let test () =
