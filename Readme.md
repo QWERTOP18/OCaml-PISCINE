@@ -11,6 +11,13 @@
 
 see manual https://ocaml.org/p/ocamlformat/0.26.0/doc/manpage_ocamlformat.html
 
+- [ ] debuggerを日常的に使用したい
+- [x] CI
+
 
 ## ほげ〜
 - [ ] test用にfileを分けてコンパイルしたい
+- [x] pipe |> や assertがある
+```sh
+cd ../ex$(printf "%02d" $(( 10#${PWD##*ex} + 1 )))
+```

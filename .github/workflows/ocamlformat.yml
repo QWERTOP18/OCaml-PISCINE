@@ -1,0 +1,29 @@
+name: OCaml Format Check
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  format-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up OCaml
+      uses: ocaml/setup-ocaml@v3
+      with:
+        ocaml-compiler: "5.1.x"
+        opam-repositories: |
+          default: https://opam.ocaml.org
+          
+    - name: Install ocamlformat
+      run: |
+        opam install ocamlformat --yes
+        
+    - name: Check OCaml file formatting
+      run: |
+        chmod +x .github/script/check_ocaml_format.sh
+        .github/script/check_ocaml_format.sh
