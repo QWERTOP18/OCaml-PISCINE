@@ -6,9 +6,9 @@ let repeat_x (n : int) =
       in
       aux n ""
 
-let test () =
+(* let test () =
     print_endline (repeat_x (-1));
     print_endline (repeat_x 2);
     print_endline (repeat_x 5)
 
-let () = test ()
+let () = test () *)
