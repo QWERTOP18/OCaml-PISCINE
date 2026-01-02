@@ -14,3 +14,4 @@ see manual https://ocaml.org/p/ocamlformat/0.26.0/doc/manpage_ocamlformat.html
 
 ## ほげ〜
 - [ ] test用にfileを分けてコンパイルしたい
+- [ ] -1はstring扱いされてしまうので(-1)とする
