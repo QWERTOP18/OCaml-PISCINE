@@ -8,3 +8,13 @@ let fibonacci (n : int) =
             else aux (i + 1) curr (prev + curr)
         in
         aux 1 0 1
+
+(* let test () =
+    Printf.printf "fibonacci (-1) = %d\n" (fibonacci (-1));
+    Printf.printf "fibonacci 0 = %d\n" (fibonacci 0);
+    Printf.printf "fibonacci 1 = %d\n" (fibonacci 1);
+    Printf.printf "fibonacci 2 = %d\n" (fibonacci 2);
+    Printf.printf "fibonacci 5 = %d\n" (fibonacci 5);
+    Printf.printf "fibonacci 10 = %d\n" (fibonacci 10)
+
+let () = test () *)

@@ -10,3 +10,20 @@ let round (lst : 'a list) (n : int) =
         in
         if n > 0 then aux n [] lst
         else aux (-n) [] (List.rev lst)
+
+(* let test () =
+    let lst1 = [1; 2; 3; 4; 5] in
+    let result1 = round lst1 1 in
+    Printf.printf "round [1;2;3;4;5] 1 = ";
+    List.iter (fun x -> Printf.printf "%d " x) result1;
+    print_endline "";
+    let result2 = round lst1 2 in
+    Printf.printf "round [1;2;3;4;5] 2 = ";
+    List.iter (fun x -> Printf.printf "%d " x) result2;
+    print_endline "";
+    let result3 = round lst1 0 in
+    Printf.printf "round [1;2;3;4;5] 0 = ";
+    List.iter (fun x -> Printf.printf "%d " x) result3;
+    print_endline ""
+
+let () = test () *)

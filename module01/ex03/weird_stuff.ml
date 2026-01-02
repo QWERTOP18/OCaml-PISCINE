@@ -7,3 +7,12 @@ let weird_stuff (n : int) =
             else aux (i - 1) (acc - i)
         in
         aux n 0
+
+(* let test () =
+    Printf.printf "weird_stuff (-1) = %d\n" (weird_stuff (-1));
+    Printf.printf "weird_stuff 0 = %d\n" (weird_stuff 0);
+    Printf.printf "weird_stuff 1 = %d\n" (weird_stuff 1);
+    Printf.printf "weird_stuff 5 = %d\n" (weird_stuff 5);
+    Printf.printf "weird_stuff 10 = %d\n" (weird_stuff 10)
+
+let () = test () *)
